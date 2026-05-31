@@ -34,6 +34,7 @@ public class OrderController {
 
     @GetMapping("/current")
     public String orderForm(@ModelAttribute("tacoOrder") TacoOrder tacoOrder) {
+        log.info("Showing order form: {}", tacoOrder);
         return "orderForm";
     }
 

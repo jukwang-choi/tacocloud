@@ -75,11 +75,13 @@ public class DesignTacoController {
             @ModelAttribute("tacoOrder") TacoOrder tacoOrder) {
 
         if (errors.hasErrors()) {
+            log.info("Taco validation error: {}", errors);
             return "design";
         }
 
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
+        log.info("Redirecting to /orders/current");
 
         return "redirect:/orders/current";
     }
