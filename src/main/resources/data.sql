@@ -1,0 +1,10 @@
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('FLTO', 'Flour Tortilla', 'WRAP');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('COTO', 'Corn Tortilla', 'WRAP');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('GRBF', 'Ground Beef', 'PROTEIN');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('CARN', 'Carnitas', 'PROTEIN');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('TMTO', 'Diced Tomatoes', 'VEGGIES');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('LETC', 'Lettuce', 'VEGGIES');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('CHED', 'Cheddar', 'CHEESE');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('JACK', 'Monterrey Jack', 'CHEESE');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('SLSA', 'Salsa', 'SAUCE');
+INSERT IGNORE INTO ingredient (id, name, type) VALUES ('SRCR', 'Sour Cream', 'SAUCE');
